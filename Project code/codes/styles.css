@@ -1,0 +1,98 @@
+/* Main App Styles */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+    color: #ffffff;
+}
+
+[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+[data-testid="stToolbar"] {
+    display: none;
+}
+
+/* Sidebar Styles */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%) !important;
+    border-right: 1px solid #2a2a4a;
+}
+
+.user-profile {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border-left: 4px solid #0078ff;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: center;
+}
+
+/* Button Styles */
+.stButton>button {
+    border: none;
+    background: linear-gradient(90deg, #0078ff 0%, #00c6ff 100%) !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Card Styles */
+.feature-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-box ul {
+    padding-left: 1.2rem;
+}
+
+.feature-box li {
+    margin-bottom: 0.5rem;
+}
+
+/* Form Styles */
+.stTextInput>div>div>input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.stRadio>div {
+    background: rgba(255, 255, 255, 0.05) !important;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+/* Metric Cards */
+[data-testid="metric-container"] {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 10px;
+    padding: 1rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Dataframe Styles */
+.stDataFrame {
+    border-radius: 8px;
+    overflow: hidden;
+}

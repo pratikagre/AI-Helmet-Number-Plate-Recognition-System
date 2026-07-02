@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Streamlit (main.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "C:\\Users\\agrep\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "main.py"
+      ],
+      "cwd": "${workspaceFolder}/Project code/codes",
+      "jinja": true,
+      "justMyCode": true
+    }
+  ]
+}

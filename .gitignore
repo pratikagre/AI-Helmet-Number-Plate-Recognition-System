@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases
+*.db
+database/
+
+# Streamlit
+.streamlit/
+
+# Large model weights (optional to ignore, but we can keep best.pt if needed)
+# Yolov8 weights
+yolov8n.pt
+
+# User files / snapshots / temporary files
+snapshots/
+Project code/Project code/snapshots/
+Project code/codes/snapshots/
+temp_video.mp4
+Project code/Project code/temp_video.mp4
+Project code/codes/temp_video.mp4
+temp_video*
+
+# OS files
+.DS_Store
+Thumbs.db

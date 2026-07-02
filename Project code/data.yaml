@@ -1,0 +1,14 @@
+names:
+- helmet
+- plate
+- rider
+nc: 3
+roboflow:
+  license: MIT
+  project: motorcycle-helmet-and-license-plate-detection
+  url: https://universe.roboflow.com/object-detection-helmetslicense/motorcycle-helmet-and-license-plate-detection/dataset/1
+  version: 1
+  workspace: object-detection-helmetslicense
+test: /content/Motorcycle-Helmet-and-License-plate-detection-1/test/images
+train: /content/Motorcycle-Helmet-and-License-plate-detection-1/train/images
+val: /content/Motorcycle-Helmet-and-License-plate-detection-1/valid/images
