@@ -121,7 +121,9 @@ def is_standard_number_plate(text):
 
 # Set Tesseract path (Update if needed on your system)
 # Ignore errors if not strictly found, handled gracefully later
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+tesseract_win_path = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+if os.path.exists(tesseract_win_path):
+    pytesseract.pytesseract.tesseract_cmd = tesseract_win_path
 
 # Load the YOLO models
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

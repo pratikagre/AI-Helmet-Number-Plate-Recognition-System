@@ -17,7 +17,9 @@ torch.load = patched_load
 from ultralytics import YOLO
 
 # Set the path for Tesseract OCR (Change if installed in a different location)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+tesseract_win_path = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+if os.path.exists(tesseract_win_path):
+    pytesseract.pytesseract.tesseract_cmd = tesseract_win_path
 
 # Load YOLO model for number plate detection
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
