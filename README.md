@@ -46,7 +46,7 @@ An automated system designed to detect traffic violations in real-time, generate
 
 2.  **Install Required Dependencies:**
     ```bash
-    pip install -r "Project code/requiremnets.txt"
+    pip install -r requirements.txt
     ```
 
 ---
@@ -60,21 +60,17 @@ An automated system designed to detect traffic violations in real-time, generate
 
 ### Method 2: Via Terminal
 1.  Open your terminal/command prompt.
-2.  Change directory to the `codes` directory:
-    ```bash
-    cd "Project code/codes"
-    ```
-3.  Run the Streamlit server:
+2.  Run the Streamlit server directly from the root:
     ```bash
     streamlit run main.py
     ```
-4.  Open the local URL displayed in your terminal (typically `http://localhost:8501`) in your web browser.
+3.  Open the local URL displayed in your terminal (typically `http://localhost:8501`) in your web browser.
 
 ---
 
 ## 🔒 Configuration
 
-*   **Email Credentials:** The system uses Gmail SMTP to send challans. You can modify the sender credentials (`sender_email`, `sender_password` via App Passwords) inside `Project code/codes/video_detection.py` under `send_challan_email()`.
+*   **Email Credentials:** The system uses Gmail SMTP to send challans. You can modify the sender credentials (`sender_email`, `sender_password` via App Passwords) inside `video_detection.py` under `send_challan_email()`.
 *   **RTO Mapping:** You can map vehicle number plates to owner emails inside the `RTO_DATABASE` dictionary in `video_detection.py` to test email delivery.
 
 ---

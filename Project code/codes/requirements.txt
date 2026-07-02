@@ -1,7 +1,0 @@
-streamlit
-opencv-python-headless
-ultralytics
-plotly
-pandas
-numpy
-streamlit-option-menu

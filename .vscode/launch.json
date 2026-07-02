@@ -11,7 +11,7 @@
         "run",
         "main.py"
       ],
-      "cwd": "${workspaceFolder}/Project code/codes",
+      "cwd": "${workspaceFolder}",
       "jinja": true,
       "justMyCode": true
     }
